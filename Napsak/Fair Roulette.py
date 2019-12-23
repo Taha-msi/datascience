@@ -2,7 +2,7 @@
 """
 Created on Thu Aug  8 10:55:40 2019
 
-@author: tahamansouri
+@author: Taha Mansouri
 """
 import random
 import statistics

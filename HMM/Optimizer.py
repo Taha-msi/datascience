@@ -3,7 +3,7 @@
 """
 Created on Fri Jun  7 14:53:24 2019
 
-@author: apple
+@author: Taha Mansouri
 """
 
 import numpy as np
@@ -88,7 +88,4 @@ class Optimizer:
                 return [landa[0], landa[1], landa[2],probs]
             
         return [landa[0], landa[1], landa[2],probs]       
-            
-     #def test(func, paramlist):
-      #   return func(*paramlist)
-        
+                  

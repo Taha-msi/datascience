@@ -3,7 +3,7 @@
 """
 Created on Fri Jun  7 14:27:40 2019
 
-@author: apple
+@author: Taha Mansouri
 """
 
 import gc

@@ -3,7 +3,7 @@
 """
 Created on Fri Jun  7 13:56:31 2019
 
-@author: Taha
+@author: Taha Mansouri
 """
 import numpy as np
 import random
@@ -136,7 +136,6 @@ class HMM:
                 Best=[bA,bB,bpi,alpha[-1]]
                 end=datetime.now()-start
         return [Best[0],Best[1],Best[2],Best[3],end,probs]
-
 
     def aroBW(self, O, A, B, pi, n_iter=100):
         alpha=self.forward(O,A,B,pi)
